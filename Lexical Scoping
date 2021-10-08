@@ -1,0 +1,39 @@
+## The Coding Entails Caching and Inversing.
+
+## Part 1 - Caching
+## Please Determine the Input 'k'
+
+## This Generates a Special Matrix that Pilots Inverse Caching.
+makeCacheMatrix <- function(k = matrix()) 
+{
+  down <- NULL
+   ## Let down as Null
+   ## Inverse Matrix Hold Value is Initialized.
+    set <- function(y){ ## Set is Equated to Function Y
+    k <<- y ## K is Equated to Y
+  down <<- NULL ## Set Down as Null
+}
+  get <- function()k{} ## Specify the Matrix Function as Get
+    setInverse <- function(inverse) down <<- inverse ## Set the Inverse as down
+      getInverse <- function() down{ ## Calculates the Inverse Equivalent
+       list(set = set, get = get, setInverse = setInverse, 
+       getInverse = getInverse)   ## indisputable
+}
+
+## Part 2 - Inversing
+## Inverted Matrix Value
+## Returning Matrix from Inverse of k
+
+cacheSolve <- function(k, ...) 
+{
+  ## Return Matrix Inverse of 'k'
+    down <- k$getInverse() ## Commence with Inversing
+      if(!is.null(down)){ ## Insert Let Equation
+      message("obtaining backup data")
+    return(down)
+}
+  g <- k$get()
+    down <- solve(g,...)
+    x$setInverse(down)
+  down
+}
